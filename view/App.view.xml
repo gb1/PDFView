@@ -1,0 +1,16 @@
+<mvc:View
+        controllerName="PdfViewTest.controller.App"
+        displayBlock="true"
+        xmlns="sap.m"
+        xmlns:mvc="sap.ui.core.mvc"
+        xmlns:pdf="PdfViewTest.control">
+    <App>
+        <pages>
+            <Page title="PdfView Test">
+                <content>
+                    <pdf:PdfView id="pdfView"></pdf:PdfView>
+                </content>
+            </Page>
+        </pages>
+    </App>
+</mvc:View>

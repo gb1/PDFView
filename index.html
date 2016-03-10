@@ -1,0 +1,27 @@
+<html>
+<head>
+    <meta http-equiv="X-UA-COMPATIBLE" content="IE=edge"/>
+    <meta charset="UTF-8"/>
+    <script id="sap-ui-bootstrap"
+            type="text/javascript"
+            src="https://openui5.hana.ondemand.com/resources/sap-ui-core.js"
+            data-sap-ui-theme="sap_bluecrystal"
+            data-sap-ui-libs="sap.m"
+            data-saplumn-ui-bindingSyntax="complex"
+            data-sap-ui-compatVersion="edge"
+            data-sap-ui-preload="async"
+            data-sap-ui-resourceroots='{"PdfViewTest": "./"}'>
+    </script>
+
+    <script>
+        sap.ui.getCore().attachInit(function() {
+            new sap.ui.core.ComponentContainer({
+                name: "PdfViewTest",
+                height: "100%"
+            }).placeAt("content");
+        });
+    </script>
+
+</head>
+<body class="sapUiBody" id="content"/>
+</html>
